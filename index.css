@@ -1,0 +1,182 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background-color: rgb(2, 2, 27);
+}
+.container
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 100px;
+  
+
+}
+ 
+.content
+{ 
+    background-image: url('img/agni-51.jpg');
+    height: 70%;
+    min-width:470px;
+    width: 65%;
+    background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(233, 227, 227);
+    
+}
+.image
+{  
+    min-width:470px;
+}
+
+.info
+{
+    padding: 150px 0;
+    
+    font-family: 'Vollkorn', serif;
+   
+}
+.info h1{
+    font-family: 'Patua One', cursive;
+    color:rgb(3, 4, 85);
+}
+.info h2{
+    color: rgb(255, 60, 0);
+}
+#green{
+   color: rgb(28, 136, 28);
+
+}
+.info p{
+    /* color:rgb(118, 118, 238) */
+    color:rgb(3, 4, 85);
+
+}
+.info h5{
+    font-family: 'Merriweather', serif;
+    color:rgb(3, 4, 85);
+}
+.container2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    font-size: 5px;
+}
+.about
+{
+max-width: 400px;
+max-height:500px;
+height: 500px;
+box-sizing: border-box;
+background: linear-gradient(50deg,rgb(252, 127, 10),rgb(250, 250, 252),rgb(105, 191, 224));
+box-shadow: 5px 2px 5px rgb(105, 191, 224);
+border-radius: 80px;
+padding:50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 2.8em;
+}
+.about:hover
+{
+    transform: scale(1.05);
+    color: rgb(1, 1, 100);
+}
+.space
+{
+    margin: 50px 10px;
+}
+.about h2{
+    padding-bottom: 10px;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Zilla Slab', serif;
+    font-weight:bold;
+}
+.about p{
+    text-align:justify;
+    font-family: 'Vollkorn', serif;  
+}
+.about  li{
+    text-align:justify;
+    font-family: 'Vollkorn', serif;  
+}
+.thoughts
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    height: 100%;
+    background-color:white;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 2px 5px rgb(105, 191, 224);
+    background: linear-gradient(80deg,rgb(72, 160, 233),rgb(250, 250, 252),rgb(241, 110, 22));
+    margin-bottom: 50px;
+}
+.thoughts img
+{
+    border-radius: 10px;
+}
+.thoughts img:hover
+{
+    transform: scale(1.05);
+
+}
+#t2
+{
+    margin: 80px 50px;
+}
+.space1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+}
+.heading h2{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Patua One', cursive;
+    /* background-color: rgb(220, 220, 240); */
+    width: 400px;   
+}
+@media screen and (max-width: 460px) {
+    .info
+    {
+        font-size:12px;
+    }
+}
+@media screen and (max-width: 362px) {
+    .about
+    {
+     font-size: 2.3em;
+    }
+}
+@media screen and (max-width: 354px) {
+    .thoughts img
+    {
+     width: 250px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .container img
+    {
+     width: 350px;
+     height: 400px;
+    }
+}
